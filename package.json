@@ -1,0 +1,39 @@
+{
+  "name": "tsc-watch-test",
+  "version": "1.0.0",
+  "description": "Small project to test tsc --watch",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "tsc": "tsc",
+    "tsc:w": "tsc -w",
+    "webpack": "webpack",
+    "webpack-dev-server": "webpack-dev-server --port 8088",
+    "build": "npm run tsc; npm run webpack",
+    "start": "concurrent \"npm run tsc:w\" \"npm run webpack-dev-server\" "
+  },
+  "private": true,
+  "author": "",
+  "license": "None",
+  "dependencies": {
+    "react": "^0.14.6",
+    "react-dnd": "^2.0.2",
+    "react-dnd-html5-backend": "^2.0.2",
+    "react-dom": "^0.14.6",
+    "react-redux": "^4.0.6",
+    "redux": "^3.0.5"
+  },
+  "devDependencies": {
+    "chai": "^3.5.0",
+    "concurrently": "^1.0.0",
+    "deep-freeze": "0.0.1",
+    "expect": "^1.13.4",
+    "html-webpack-plugin": "^2.7.1",
+    "mocha": "^2.4.5",
+    "path": "^0.12.7",
+    "tsd": "^0.6.5",
+    "typescript": "^1.8.0",
+    "webpack": "^1.12.11",
+    "webpack-dev-server": "^1.14.1"
+  }
+}

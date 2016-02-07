@@ -1,0 +1,51 @@
+{
+  "version": "v4",
+  "repo": "borisyankov/DefinitelyTyped",
+  "ref": "master",
+  "path": "typings",
+  "bundle": "typings/tsd.d.ts",
+  "installed": {
+    "react/react.d.ts": {
+      "commit": "7b3d5a6ea5acda4a81f71309f1cc62354e63b681"
+    },
+    "redux/redux.d.ts": {
+      "commit": "7b3d5a6ea5acda4a81f71309f1cc62354e63b681"
+    },
+    "lodash/lodash.d.ts": {
+      "commit": "3a666d1bff92e944488c25599ec56a4937c17c4e"
+    },
+    "react/react-dom.d.ts": {
+      "commit": "3a666d1bff92e944488c25599ec56a4937c17c4e"
+    },
+    "react-redux/react-redux.d.ts": {
+      "commit": "7b3d5a6ea5acda4a81f71309f1cc62354e63b681"
+    },
+    "react-dnd/react-dnd.d.ts": {
+      "commit": "7b3d5a6ea5acda4a81f71309f1cc62354e63b681"
+    },
+    "lunr/lunr.d.ts": {
+      "commit": "86dbea8fc37d9473fee465da4f0a21bea4f8cbd9"
+    },
+    "es6-promise/es6-promise.d.ts": {
+      "commit": "5d0f2126c8dac8fce0ff020218aea06607213b0d"
+    },
+    "whatwg-fetch/whatwg-fetch.d.ts": {
+      "commit": "5d0f2126c8dac8fce0ff020218aea06607213b0d"
+    },
+    "mocha/mocha.d.ts": {
+      "commit": "4ec3c5bf291bc02f49eb30c1077340b235165c67"
+    },
+    "chai/chai.d.ts": {
+      "commit": "b835db63e90aabf82afdbc0b511195c197f599c5"
+    },
+    "assertion-error/assertion-error.d.ts": {
+      "commit": "b835db63e90aabf82afdbc0b511195c197f599c5"
+    },
+    "when/when.d.ts": {
+      "commit": "c393f8974d44840a6c9cc6d5b5c0188a8f05143d"
+    },
+    "rest/rest.d.ts": {
+      "commit": "c393f8974d44840a6c9cc6d5b5c0188a8f05143d"
+    }
+  }
+}
